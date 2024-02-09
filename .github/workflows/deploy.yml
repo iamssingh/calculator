@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - gh-pages  # Change this to your main branch name
+      - master  # Change this to your main branch name
 
 jobs:
   build:
